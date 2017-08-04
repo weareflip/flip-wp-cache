@@ -1,0 +1,23 @@
+{
+  "name": "weareflip/flip-wp-cache",
+  "description": "Flip Wordpress Segment Cache",
+  "keywords": ["flip", "cache", "wordpress"],
+  "authors": [
+    {
+      "name": "Andris Trieb",
+      "email": "andris@weareflip.com",
+      "homepage": "http://weareflip.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "composer/installers" : "~1.2"
+  }
+}
